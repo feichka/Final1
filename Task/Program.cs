@@ -4,7 +4,7 @@ string[] array1 = new string[] {"qwerty", "123", "йцукенг", "Hello", "wor
 // Объявляем конечный массив.
 string[] array2 = new string[array1.Length];
 
-// Метод формирования конечного массива (строки с длиной не более или равной 3 символам).
+// Метод формирования конечного массива (строки с длиной меньше или равной 3 символам).
 void SecondArrayForm (string[] array1, string[] array2)
 {
     int j = 0;
